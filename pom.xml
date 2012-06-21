@@ -40,7 +40,7 @@
     <scm>
         <connection>scm:git:git://github.com:lastfm/jdeb.git</connection>
         <developerConnection>scm:git:git://github.com:lastfm/jdeb.git</developerConnection>
-        <url>http://github.com/lastfm/jdeb/tree/master</url>
+        <url>git@github.com:lastfm/jdeb.git</url>
     </scm>
     <distributionManagement>
         <repository>
