@@ -234,7 +234,7 @@ public class Processor {
         checksumsSha1.append(' ').append(changesDescriptor.get("SHA1"));
         checksumsSha1.append(' ').append(changesDescriptor.get("Size"));
         checksumsSha1.append(' ').append(changesDescriptor.get("File"));
-        changesDescriptor.set("Checksums-Sha1", checksumsSha1.toString());
+//        changesDescriptor.set("Checksums-Sha1", checksumsSha1.toString());
 
         final StringBuilder checksumsSha256 = new StringBuilder("\n");
         // Checksums-Sha256:
@@ -242,7 +242,7 @@ public class Processor {
         checksumsSha256.append(' ').append(changesDescriptor.get("SHA256"));
         checksumsSha256.append(' ').append(changesDescriptor.get("Size"));
         checksumsSha256.append(' ').append(changesDescriptor.get("File"));
-        changesDescriptor.set("Checksums-Sha256", checksumsSha256.toString());
+//        changesDescriptor.set("Checksums-Sha256", checksumsSha256.toString());
 
 
         final StringBuilder files = new StringBuilder("\n");
