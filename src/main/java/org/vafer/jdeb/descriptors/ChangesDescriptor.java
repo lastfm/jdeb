@@ -55,8 +55,8 @@ public final class ChangesDescriptor extends AbstractDescriptor {
         "Maintainer",
         "Description",
         "Changes",
-//        "Checksums-Sha1",
-//        "Checksums-Sha256",
+        "Checksums-Sha1",
+        "Checksums-Sha256",
         "Files"
     };
 
